@@ -6,7 +6,7 @@ def add_items():
         items.append(item)
         print("ITEM HAS BEEN ADDED ✅")
         while True:
-            choice = input("Do you you wont to Add Another items? write(Yes/No) : ").lower()
+            choice = input("Do you want to Add Another item ? write(Yes/No) : ").lower()
             print()
             if choice == "yes":
                 break   
@@ -27,7 +27,7 @@ def display_items():
         #     print( f'{idx}.',item)
 
 def remove_items():
-    item = input("ENTER ITEM TO REMOVE IT : ").lower()
+    item = input("Enter Item To Remove : ").lower()
     
     if item in items:
        items.remove(item)
@@ -38,7 +38,7 @@ def remove_items():
         print()
 
 def check_items():
-    item = input("ENTER ITEM TO CHECK : ").lower()
+    item = input("Enter Item To Check : ").lower()
 
     if item in items:
         print("ITEMS EXISTS ✅")
