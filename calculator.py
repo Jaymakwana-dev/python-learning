@@ -88,7 +88,7 @@ while True:
         break
     else:
         print("Invalid choice. Please enter a valid option.(+, -, *, /, H to view history, or E to exit) ❌")
-        restart_choice = input("Do you want to calculate again? (Y/N): ").lower()
+        restart_choice = input("Do you want to calculate again ? (Y/N): ").lower()
         if restart_choice == "y":
             continue
         if restart_choice == "n":
